@@ -1,0 +1,42 @@
+section{
+    text-align: center;
+    color: azure;
+    column-gap: 3px;
+    row-gap: 6px;
+    
+    height: 500px;
+display: grid;
+grid-template-areas:
+  "head head head head"
+  "navv art art bar"
+  "navv art art bar"
+  "navv art art bar"
+  "navv art art bar"
+  "foot foot foot foot";
+}
+nav {
+    padding-top: 25px; 
+background-color: orange;
+grid-area: navv;
+}
+bar {
+    padding-top: 25px; 
+    background-color: orange;
+    grid-area: bar;
+    }
+header {
+    padding-top: 25px; 
+height: 500;    
+background-color: cornflowerblue;
+grid-area: head;
+}
+article {
+    padding-top: 25px; 
+background-color: green;
+grid-area: art;
+}
+footer {
+    padding-top: 25px; 
+background-color: cornflowerblue;
+grid-area: foot;
+}
