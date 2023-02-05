@@ -7,3 +7,6 @@ day1 runs
           https://ahmedabdelrahim123.github.io/RWD/day1/task3/grid1.html
           
           https://ahmedabdelrahim123.github.io/RWD/day1/bonus/bonus.html
+day2 runs
+  
+        https://ahmedabdelrahim123.github.io/RWD/day2/index.html
